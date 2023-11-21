@@ -1,0 +1,252 @@
+body {
+    background-image: url(media/textura.png);
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    color:#fff;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact {
+    padding: 6px 16px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    color: #1e2d2f;
+    background-color: #badeda;
+    border-radius: 50px;
+    border: rgb(30, 45, 47);
+    box-shadow: none;
+    font-weight: bold; 
+}
+.fa-regular fa-user fa-2xl {
+    padding: 6px;
+}
+.navBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar ul li {
+    position: relative;
+    float: left;
+}
+
+.navBar ul a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navBar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+
+.navBar ul ul li{
+    float: none;
+    width: 110px;
+}
+
+.navBar ul ul a{
+    line-height: 120%;
+    padding: 10px 15 px;;
+}
+
+.navBar ul li:hover {
+    background-color: blue;
+}
+
+.navBar ul li:hover ul {
+    display: block;
+}
+ 
+
+
+.text {
+    float: left;
+    width: 40%;
+    padding-top: 110px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 60px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+.img {
+    right: 50%;
+    padding-top: 150px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+  
+    
+}
+.title {
+    font-size: calc(2rem + 4vw);
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+p {
+    font-size: 1.5rem;
+    text-align: left;
+}
+#espacio {
+    font-size: calc(2rem + 4vw);
+    font-weight: 700;
+    color: transparent; 
+
+}
+.chanclas {
+    border-radius: 30px;  
+    box-shadow: 0px 10px 18px 0px rgb(162, 160, 160);
+    
+}
+.container_img {
+    box-shadow: 9984px 0 0 0 #badeda, 9999px 0 0 0 #badeda, 10014px 0 0 0 #badeda;
+    padding-top: 110px;
+
+}
+.pop {
+    position: absolute;
+    margin-left: -55px;
+    margin-top: -30px;
+    height: 80px;
+}
+.explain {
+    background-color: #badeda;
+    padding: 14px 41px;
+    color: #1e2d2f;
+    box-shadow: none;
+    border: 0;
+    border-color: #1e2d2f;
+    border-radius: 50px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.spoke {
+    background-color: #1e2d2f;
+    padding: 14px 41px;
+    color: #dbeae9;
+    box-shadow: none;
+    border: 0;
+    border-color: #1e2d2f;
+    border-radius: 50px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.container_buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 130px;
+    width: 570px;
+    border-radius: 80px;
+    border: none;
+
+}
+.text_button p{
+    font-size: calc(1rem + 0.6vw)
+}
+
+.paragraph {
+    font-size: 0.9rem;
+}
+
+sup{
+    border: 1px solid; 
+    border-radius: 50px; 
+    text-align: center; 
+    font-size: 1rem; 
+    margin-left: 5px; 
+    padding: 2px 5px 2px 5px;
+}
+.text_button {
+    text-align: left;
+    margin-left: 5px; 
+    padding: 0px 5px 15px 15px
+}
+
+.icon i{    
+    width: 50px;
+
+}
+.articulo {
+    margin-top: 200px; margin-bottom: 100px;
+}
+
+@media(max-width: 800px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacto {
+        float:inline-end;
+    }
+    
+    .text {
+        float: none;
+        width: 100%;
+        padding-top: 50px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+
+    }
+   .buttons {
+        margin-top: 50px;
+    
+    }
+    .articulo {
+        margin-top: 100px; margin-bottom: 100px;
+    }
+    .title {
+        text-align: center;
+    }
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    p {
+        font-size: 1rem;
+    }
+
+    .pop{
+     display: none;
+        
+    }
+    .buttons {
+    width: 450px;
+
+    }
+    .chanclas {
+        width: 450px;
+    }
+}
